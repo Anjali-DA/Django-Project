@@ -23,4 +23,5 @@ urlpatterns = [
     path("", views.index, name='index'),
     #path("about", views.about, name='about'),
     path("analyze", views.analyze, name='analyze')
+
 ]
